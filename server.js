@@ -57,7 +57,7 @@ app.post(
         console.log('Email sent: ' + info.response);
         res.status(200);
         res.send(
-          `Thanks you ${req.body.name}, your message was successfully sent to: ${mailOptions.to}. I will try to contact you ASAP!`
+          `Gracias ${req.body.name}, su mensaje ha sido enviado satisfactoriamente a: ${mailOptions.to}. le contactaré lo mas pronto posible!`
         );
       }
     });
